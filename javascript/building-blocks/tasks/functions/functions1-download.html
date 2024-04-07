@@ -30,6 +30,13 @@
     const para = document.createElement('p');
 
     // Add your code here
+    function chooseName() {
+  const randomNumber = Math.floor(Math.random() * names.length);
+  const choice = names[randomNumber];
+  para.textContent = choice;
+}
+
+chooseName();
 
     // Don't edit the code below here!
 
