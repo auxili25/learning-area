@@ -42,6 +42,14 @@
     const color = 'blue';
 
     // Add your code here
+    function drawSquare(x, y, width, height, color) {
+  ctx.fillStyle = "purple";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = color;
+  ctx.fillRect(x, y, width, height);
+}
+
+drawSquare(x, y, width, height, color);
 
     // Don't edit the code below here!
 
